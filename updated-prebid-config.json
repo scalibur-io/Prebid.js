@@ -1,0 +1,43 @@
+{
+  "version": "9.53.0",
+  "modules": [
+    "appnexusBidAdapter",
+    "criteoBidAdapter",
+    "equativBidAdapter",
+    "gumgumBidAdapter",
+    "ixBidAdapter",
+    "medianetBidAdapter",
+    "onetagBidAdapter",
+    "openxBidAdapter",
+    "pubmaticBidAdapter",
+    "rubiconBidAdapter",
+    "sharethroughBidAdapter",
+    "sonobiBidAdapter",
+    "ttdBidAdapter",
+    "unrulyBidAdapter",
+    "yahooAdsBidAdapter",
+    "yieldmoBidAdapter",
+
+    "ozoneBidAdapter",
+    "showheroes-bsBidAdapter",
+    "smilewantedBidAdapter",
+    "sovrnBidAdapter",
+    "riseBidAdapter",
+    "sspBCBidAdapter",
+
+    "consentManagementGpp",
+    "consentManagementTcf",
+    "consentManagementUsp",
+    "priceFloors",
+    "multibid",
+    "schain",
+    "hadronIdSystem",
+    "id5IdSystem",
+    "pairIdSystem",
+    "pubProvidedIdSystem",
+    "identityLinkIdSystem",
+    "sharedIdSystem",
+    "unifiedIdSystem",
+    "uid2IdSystem"
+  ]
+}

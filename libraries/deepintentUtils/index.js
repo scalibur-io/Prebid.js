@@ -4,7 +4,7 @@ export const COMMON_ORTB_VIDEO_PARAMS = {
   'mimes': (value) => Array.isArray(value) && value.length > 0 && value.every(v => typeof v === 'string'),
   'minduration': (value) => isInteger(value),
   'maxduration': (value) => isInteger(value),
-  'protocols': (value) => Array.isArray(value) && value.every(v => v >= 1 && v <= 10),
+  'protocols': (value) => Array.isArray(value) && value.every(v => v >= 1 && v <= 16),
   'w': (value) => isInteger(value),
   'h': (value) => isInteger(value),
   'startdelay': (value) => isInteger(value),
@@ -20,7 +20,7 @@ export const COMMON_ORTB_VIDEO_PARAMS = {
   'boxingallowed': (value) => [0, 1].indexOf(value) !== -1,
   'playbackmethod': (value) => Array.isArray(value) && value.every(v => v >= 1 && v <= 6),
   'playbackend': (value) => [1, 2, 3].indexOf(value) !== -1,
-  'api': (value) => Array.isArray(value) && value.every(v => v >= 1 && v <= 6)
+  'api': (value) => Array.isArray(value) && value.every(v => v >= 1 && v <= 9)
 };
 
 export function formatResponse(bid) {
